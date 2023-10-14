@@ -77,8 +77,20 @@ console.log(`The first name in the string is ${getName}`);
  */
 // On your own find the middle date(and time) between the following two dates:
 // 1/1/2020 00:00:00 and 4/1/2020 00:00:00
-//
-// Look online for documentation on Date objects.
+
+const firstDate = new Date("01 Jan 2020 00:00:00");
+const secondDate = new Date("01 April 2020 00:00:00");
+
+//get time since epoch for both
+const firstEpoch = firstDate.valueOf();
+const secondEpoch = secondDate.valueOf();
+
+// get the middle of the two values
+const middleEpoch = (firstEpoch + secondEpoch) / 2;
+
+//create date object from value
+middleDate = new Date(middleEpoch);
+console.log(`The middle date is ${middleDate}`);
 
 // Starting hint:
 //const endDate = new Date(2019, 3, 1);
