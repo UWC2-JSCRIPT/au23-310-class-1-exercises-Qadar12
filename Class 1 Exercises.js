@@ -14,6 +14,12 @@ console.log(`the area of a 17' pizza is ${largePizzaArea}`);
 
 // 2. What is the cost per square inch of each pizza?
 
+smallPizzaTrueCost = 16.99 / smallPizzaArea;
+largePizzaTrueCost = 19.99 / largePizzaArea;
+
+console.log(`the cost per square inch of a 13' pizza is ${smallPizzaTrueCost}`);
+console.log(`the cost per square inch of a 17' pizza is ${largePizzaTrueCost}`);
+
 // 3. Using the Math object, put together a code snippet
 // that allows you to draw a random card with a value
 // between 1 and 13 (assume ace is 1, jack is 11…)
