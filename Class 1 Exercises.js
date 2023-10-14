@@ -65,6 +65,13 @@ console.log(
 // Write code that is able to extract the first name from this string into a variable.
 // Hint: use indexOf, slice, and / or substring
 
+const nameAndInfo = `NelsonBighetti
+5230 Penfield Ave
+Palo Alto, CA 94020`;
+
+const getName = nameAndInfo.substring(0, 6);
+console.log(`The first name in the string is ${getName}`);
+
 /**
  * FIND THE MIDDLE DATE
  */
