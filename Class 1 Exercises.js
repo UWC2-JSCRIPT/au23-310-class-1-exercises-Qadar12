@@ -24,8 +24,18 @@ console.log(`the cost per square inch of a 17' pizza is ${largePizzaTrueCost}`);
 // that allows you to draw a random card with a value
 // between 1 and 13 (assume ace is 1, jack is 11…)
 
+const randomNumber = Math.floor(Math.random() * 14);
+console.log(randomNumber);
+
 // 4. Draw 3 cards and use Math to determine the highest
 // card
+
+const ranCardOne = Math.floor(Math.random() * 14);
+const randCardTwo = Math.floor(Math.random() * 14);
+const ranCardThree = Math.floor(Math.random() * 14);
+
+const highestCard = Math.max(ranCardOne, randCardTwo, ranCardThree);
+console.log(`The highest card is ${highestCard}`);
 
 /**
  * ADDRESS LINE
