@@ -89,7 +89,7 @@ const secondEpoch = secondDate.valueOf();
 const middleEpoch = (firstEpoch + secondEpoch) / 2;
 
 //create date object from value
-middleDate = new Date(middleEpoch);
+const middleDate = new Date(middleEpoch);
 console.log(`The middle date is ${middleDate}`);
 
 // Starting hint:
