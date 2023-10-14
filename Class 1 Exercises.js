@@ -14,8 +14,8 @@ console.log(`the area of a 17' pizza is ${largePizzaArea}`);
 
 // 2. What is the cost per square inch of each pizza?
 
-smallPizzaTrueCost = 16.99 / smallPizzaArea;
-largePizzaTrueCost = 19.99 / largePizzaArea;
+const smallPizzaTrueCost = 16.99 / smallPizzaArea;
+const largePizzaTrueCost = 19.99 / largePizzaArea;
 
 console.log(`the cost per square inch of a 13' pizza is ${smallPizzaTrueCost}`);
 console.log(`the cost per square inch of a 17' pizza is ${largePizzaTrueCost}`);
